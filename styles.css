@@ -9,7 +9,7 @@ form {
 }
 
 form > img {
-    margin: 0 auto 36px;
+  margin: 0 auto 36px;
 }
 
 form > input {
@@ -28,29 +28,78 @@ form > input[type="text"] {
 }
 
 form > input[type="submit"] {
-    /* padding: 8px 16px;
+  /* padding: 8px 16px;
     margin-top: 32px; */
-    text-decoration: none;
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    margin: 11px auto;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px auto;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 
-
 form > input[type="submit"]:hover {
-    cursor: pointer;
-    border: 1px solid #888;
+  cursor: pointer;
+  border: 1px solid #888;
+}
+
+form#advanced {
+  margin: 24px auto;
+  text-align: left;
+  padding: 16px;
+}
+
+form#advanced > p {
+  color: #d93025;
+  font-size: 20px;
+}
+
+form#advanced > div {
+  font-size: 18px;
+}
+
+form#advanced > label {
+  display: inline-block;
+  font-size: 14px;
+  width: 200px;
+}
+
+form#advanced > input[type="text"] {
+  display: inline-block;
+  text-align: left;
+  margin: 24px 16px 8px 0;
+  height: 12px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+form#advanced > input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #3079ed;
+}
+
+form#advanced > input[type="submit"] {
+  background-color: #3079ed;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;  
+  line-height: 125%;
+  margin-top: 30px;
+  margin-left: 50%;
+  outline: none;
+}
+
+form#advanced > input[type="submit"]:hover {
+  border: 1px solid #333;
 }
 
 a {
